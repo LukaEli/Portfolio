@@ -1,12 +1,106 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website built with React and Vite, featuring a contact form with EmailJS integration.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive design that works on all devices
+- Interactive contact form with EmailJS integration
+- Modern UI with smooth animations
+- Custom components and sections
+- Clean and maintainable code structure
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- EmailJS for form handling
+- Tailwind CSS for styling
+- Custom CSS animations
+
+## 📦 Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/portfolio-website.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd portfolio-website
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Create a `.env` file in the root directory and add your EmailJS credentials:
+
+```env
+VITE_APP_EMAILJS_SERVICE_ID=your_service_id
+VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+5. Start the development server:
+
+```bash
+npm run dev
+```
+
+## 🏗️ Project Structure
+
+```
+src/
+├── components/     # Reusable components
+├── sections/       # Main page sections
+├── styles/         # Global styles
+└── assets/         # Images and other static files
+```
+
+## 🎨 Customization
+
+- Update personal information in the respective components
+- Modify the color scheme in the Tailwind configuration
+- Add or remove sections as needed
+- Customize animations and transitions
+
+## 📝 Contact Form Setup
+
+The contact form uses EmailJS for handling form submissions. To set up:
+
+1. Create an account on [EmailJS](https://www.emailjs.com/)
+2. Create an email template
+3. Get your service ID, template ID, and public key
+4. Add them to your `.env` file
+
+## 🚀 Deployment
+
+The website can be deployed to various platforms:
+
+- Vercel
+- Netlify
+- GitHub Pages
+
+Example deployment command for Vercel:
+
+```bash
+vercel
+```
+
+## 👤 Author
+
+Your Name
+
+- Website: [https://lukaelizbarashvili.netlify.app/](https://lukaelizbarashvili.netlify.app/)
+- GitHub: [LukaEli](https://github.com/LukaEli)
+- LinkedIn: [Luka Elizbarashvili](https://www.linkedin.com/in/luka-elizbarashvili-22b58826b/)
+
+## 🙏 Acknowledgments
+
+- Thanks to all the open-source libraries and tools used in this project
+- Special thanks to the React and Vite communities

@@ -42,9 +42,7 @@ const logoIconsList = [
   {
     imgPath: "/images/logos/node.png",
   },
-  {
-    imgPath: "/images/logos/company-logo-3.png",
-  },
+
   {
     imgPath: "/images/logos/three.png",
   },
